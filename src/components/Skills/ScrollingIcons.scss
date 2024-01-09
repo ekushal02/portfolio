@@ -1,0 +1,25 @@
+/* ScrollingIcons.scss */
+.scroll-container {
+  overflow-y: auto;
+  height: 100%; // Adjust the height as needed
+  display: flex;
+  flex-direction: column; // Arrange icons vertically
+  align-items: center; // Center icons horizontally
+  justify-content: center; // Center icons vertically
+  margin-right: 10px;
+  margin-left: 300px; // Adjust the margin to move the scrollbar to the central right
+}
+
+.scrolling-icons {
+  .icon {
+    margin: 20px;
+    width: 100px; // Adjust the width as needed
+    height: 100px; // Adjust the height as needed
+    object-fit: contain; // Maintain aspect ratio
+    transition: transform 0.3s ease-in-out;
+    
+    &:hover {
+      transform: scale(1.5); // Adjust the scale factor for the hover effect
+    }
+  }
+}
