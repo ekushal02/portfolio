@@ -33,18 +33,26 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious software developer working in an
-            established MNC under the Engineering Leadership program
-            with the opportunity to work with the latest technologies 
-            on challenging and diverse projects.
+            I’m Kushal Erramilli, a passionate Software Developer and Data Scientist 
+            in training, currently pursuing my Master’s in Data Science. 
+            I bring a strong foundation in Computer Science, 
+            and was a part of Carrier’s prestigious Engineering Leadership Program, 
+            where I’ve worked across domains like embedded systems, data science, and AI-driven analytics.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I thrive on solving challenging engineering problems—whether it’s building modular 
+            embedded software, designing ETL pipelines for large-scale sensor data, 
+            or applying deep learning for real-world applications.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a friendly
-            person, photography enthusiast, and tech-obsessed!!!
+            Outside of work, I'm a naturally curious, tech geek that loves to learn, 
+            whether that's getting more upskilling with AI/ML, fullstack development, 
+            or system design.
+          </p>
+
+          <p>
+            If I had to define myself in one line:
+            A friendly problem-solver and lifelong learner, blending engineering rigor with creativity
           </p>
         </div>
 

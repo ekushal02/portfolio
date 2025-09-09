@@ -114,7 +114,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/_e_kushal/"
+            href="https://www.instagram.com/e_kushal_/"
             rel="noreferrer"
             target="_blank"
           >

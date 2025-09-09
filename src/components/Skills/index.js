@@ -2,9 +2,10 @@
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import ScrollingIcons from './ScrollingIcons'; // Import the ScrollingIcons component
+import ScrollingIcons from './ScrollingIcons';
 import './index.scss';
-import { Link } from 'react-router-dom';
+
+import resume from '../../assets/resume/Kushal_Erramilli.pdf';
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -27,27 +28,33 @@ const Skills = () => {
             />
           </h1>
           <p>
-            Experience in full-stack development including technologies like
-            React, HTML, CSS, Javascript, Express, Node.
+            I am a software developer with experience in full-stack development, 
+            data science, and machine learning. I work with Python, C++, Java, 
+            JavaScript, SQL, and Bash, and have expertise in ML/DL, anomaly detection, 
+            and model explainability (SHAP).
           </p>
-          <p align="LEFT">
-            Along with web-development I have developed some projects on
-            Image Classification and Object Detection using 
-            DeepLearning and Machine Learning concepts.
-          </p>
+
           <p>
-            I code in C++ and Python prominently and have knowledge in concepts like
-            Data Structures & Algorithms, Relational Database Management System.
+            I build scalable web and backend applications using Node.js, Express.js, 
+            Next.js, and Flask, work with databases like PostgreSQL and MySQL, and 
+            create visualizations with Matplotlib, Seaborn, and Tableau. 
+            I also have experience in embedded systems, including C, Embedded Linux, 
+            and Wi-Fi driver integration.
           </p>
+
+
           <p>
-            For more information refer my resume: 
+            For more information refer my resume:
           </p>
-          <Link to="https://drive.google.com/file/d/1utgVqj9G9E5UzoQRJAHdA3HkhoT45oQE/view?usp=sharing"
+          {/* ✅ Use imported PDF as href */}
+          <a
+            href={resume}
             className="flat-button"
-            target="_blank" rel="noopener noreferrer"  // Add these attributes for security
+            target="_blank"
+            rel="noopener noreferrer"
           >
-             RESUME
-          </Link>
+            RESUME
+          </a>
         </div>
         <div className="scroll-container">
           <ScrollingIcons />

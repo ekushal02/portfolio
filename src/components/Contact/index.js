@@ -87,17 +87,17 @@ const Contact = () => {
         <div className="info-map">
           Kushal Erramillli,
           <br />
-          India,
+          Unites States of America<br />
           <br />
-          Kiran Residency, R-No:8, PJR Enclave <br />
-          Hyderabad <br />
+          4433 Eldone Road, Baltimore County <br />
+          Maryland <br />
           <br />
-          <span>kushalerramilli@gmail.com</span>
+          <span>kushalerramilli02@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[17.5118, 78.3389]} zoom={14}>
+          <MapContainer center={[39.276578, -76.691033]} zoom={14}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[17.5071, 78.3349]}>
+            <Marker position={[39.276578, -76.691033]}>
               <Popup>Kushal lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
